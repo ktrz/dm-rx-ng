@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsComparisonModule } from './form/comparison/forms-comparison.module';
+import { ExamplesModule } from './examples/examples.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FormsComparisonModule } from './form/comparison/forms-comparison.module
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormsComparisonModule
+    FormsComparisonModule,
+    ExamplesModule,
   ],
   bootstrap: [AppComponent]
 })

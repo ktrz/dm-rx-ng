@@ -3,13 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <mat-card class="example-card">
-      <app-reactive-form-example></app-reactive-form-example>
-    </mat-card>
-
-    <mat-card class="example-card">
-      <app-template-driven-form-example></app-template-driven-form-example>
-    </mat-card>
+    <app-forms-comparison></app-forms-comparison>
   `,
   styleUrls: ['./app.component.scss']
 })

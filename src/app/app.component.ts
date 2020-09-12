@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <app-my-simple-calculator></app-my-simple-calculator>
+    <h1>Rx in Angular</h1>
   `,
   styleUrls: ['./app.component.scss']
 })

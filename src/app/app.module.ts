@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsComparisonModule } from './form/comparison/forms-comparison.module';
 import { ExamplesModule } from './examples/examples.module';
+import { TasksModule } from './tasks/tasks.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ExamplesModule } from './examples/examples.module';
     BrowserAnimationsModule,
     FormsComparisonModule,
     ExamplesModule,
+    TasksModule,
   ],
   bootstrap: [AppComponent]
 })

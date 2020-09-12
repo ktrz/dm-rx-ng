@@ -12,7 +12,7 @@ if (environment.production) {
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
-// import * as example from './crash-course/example1';
+// import * as example from './crash-course/tasks/task2';
 //
 // example.init();
 // example.run();

@@ -5,8 +5,8 @@ import { map } from 'rxjs/operators';
 @Component({
   selector: 'app-my-simple-calculator',
   template: `
-    <input #firstArgument (change)="firstArgumentSubject.next(firstArgument.value)">
-    <input #secondArgument (change)="secondArgumentSubject.next(secondArgument.value)">
+    <input #firstArgument (input)="firstArgumentSubject.next(firstArgument.value)">
+    <input #secondArgument (input)="secondArgumentSubject.next(secondArgument.value)">
 
     <div>Sum {{ sum$ | async }}</div>
   `,
